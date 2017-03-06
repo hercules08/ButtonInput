@@ -31,12 +31,13 @@
                                 <state key="normal" title="Tap here please!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="UIButton4_TouchUpInside:" destination="BYZ-38-t0r" id="5" eventType="touchUpInside"/>
-                                </connections>
+                                <connections/>
                             </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="labelStatus" destination="3" id="name-outlet-3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

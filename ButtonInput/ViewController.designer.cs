@@ -13,8 +13,16 @@ namespace ButtonInput
     [Register ("ViewController")]
     partial class ViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel labelStatus { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (labelStatus != null) {
+                labelStatus.Dispose ();
+                labelStatus = null;
+            }
         }
     }
 }
