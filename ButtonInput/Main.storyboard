@@ -37,6 +37,7 @@
                     </view>
                     <connections>
                         <outlet property="labelStatus" destination="3" id="name-outlet-3"/>
+                        <outlet property="buttonTap" destination="4" id="name-outlet-4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

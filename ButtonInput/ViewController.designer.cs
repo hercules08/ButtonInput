@@ -15,10 +15,19 @@ namespace ButtonInput
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonTap { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel labelStatus { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
+            if (buttonTap != null) {
+                buttonTap.Dispose ();
+                buttonTap = null;
+            }
+
             if (labelStatus != null) {
                 labelStatus.Dispose ();
                 labelStatus = null;
