@@ -13,10 +13,6 @@ namespace ButtonInput
     [Register ("ViewController")]
     partial class ViewController
     {
-        [Action ("UIButton4_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton4_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
         }
